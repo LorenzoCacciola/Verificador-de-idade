@@ -1,0 +1,26 @@
+body{
+    background: rgb(124, 207, 255);/*fundo de toda a pagina*/
+    font: normal 15pt arial;/*fonte da pagina*/
+
+}
+header{
+    color:white;/*definir a cor de toda parte header*/
+    text-align:center;/* alinhar o texto do header para o centro*/
+
+}
+
+section {
+    background:white;/*cor de fundo do section*/
+    border-radius: 10px;/*deixar a borda mais arredondada*/
+    padding: 15px;/*tamanho da area em branco*/
+    width: 500px;/*definir a largura da parte branca*/
+    margin: auto;/*definir a margem automaticamente para o meio*/
+    box-shadow: 5px 5px 10px 5px rgb(0, 0, 0);/*sombreamento*/
+}
+
+footer{
+    color:white;/*definir a cor de toda parte footer*/
+    text-align:center;/*alinhar o texto para o centro*/
+    font-style: italic;/*estilo de fonte*/
+
+}

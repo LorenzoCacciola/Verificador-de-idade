@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="estilo.css"><!--junçao com o codigo html com o codigo js-->
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+
+    </header>
+    <section>
+        <div>
+            <p>Ano de nascimento:
+                <input type="number" name="txtano" id="txtano" min='0'><!--caixa para escrever ano de nascimento-->
+            </p>
+            <p>Sexo
+                <input type="radio" name="radsex" id="masc" checked><!--bolinha de marcaçao para masculino-->
+                <label for="masc">Masculino</label><!--dar um nome a bolinha -->
+                
+                <input type="radio" name="radsex" id="fem"><!--bolinha de marcaçao para feminino-->
+                <label for="fem">Feminino</label><!--dar um nome a bolinha-->
+
+                <input type="radio" name="txtsex" id="outos">
+                <label for="outros">Outros+</label>
+
+                
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()"><!--botao verificar, o qual vai criar uma function, quando clicar vai realizar o q a function mandar-->
+            </p>
+
+        </div>
+        <div id='res'><!--div com id res, que vai ser o resultado final!-->
+            Preencha os dados acima para ver o resultado!
+        </div>
+
+    </section>
+    <footer>
+        <p>&copy; CursoemVideo</p>
+
+    </footer>
+        <script src="script.js"></script><!--junçao do codigo em html com o codigo em js-->
+</body>
+</html>
